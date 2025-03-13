@@ -198,9 +198,39 @@
                 </p>
 
                 <!-- Download Resume Button -->
-                <a href="path/to/your/resume.pdf" class="btn btn-primary mt-4 fs-4 fw-medium" download>
-                    <i class="fas fa-download"></i> Download Resume
-                </a>
+                <a href="path/to/your/resume.pdf" class="btn btn-primary mt-4 fs-4 fw-medium download-btn" download>
+    <i class="fas fa-download"></i> Download Resume
+</a>
+
+<style>
+    .download-btn {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #1e90ff; /* Adjust to your theme's primary color */
+        color: white;
+        font-family: 'Inter', sans-serif; /* Use your website's font */
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .download-btn:hover {
+        background-color: #1c7ed6; /* Slightly darker shade for hover */
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    }
+
+    .download-btn:active {
+        background-color: #1a5c99; /* Even darker shade on click */
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    }
+</style>
+
             </div>
         </div>
     </div>
